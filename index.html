@@ -1,29 +1,48 @@
 <html>
 <head>
-
+	<style>
+		hr {
+			margin-top: 5em;
+		}
+		
+		.instant {
+			font-style: italic;
+		}
+		
+		#footnote-1-dest a {
+			margin-right: 1em;
+			font-weight: bold;
+		}
+	</style>
 </head>
 <body>
-	<h1>Calls with Casey</h1>
+	<h1>Calls with C.K.</h1>
 	
 	<p>Around June 2021, C.K. offered to mentor me in working professionally.
-	Here's a lesson I learned from him</p>
+	Here's a lesson I learned from him.
 	
-	<h2><span>2021 July 17</span><span>Avoid Stepping on Toes</span></h2>
+	<h2><span>Avoid Stepping on Toes</span></h2>
+	<div class="instant">2021 July 17</div>
 	<p>When joining a new team, first find out where all the toes are at, then avoid
-	stepping on them. Here's a possible script to use with your new teammates
+	stepping on them. Here's a possible script to use with your new teammates:
 	
 	<h3>Possible script</h3>
 	<p>"Hey, may I speak candidly? Because of [ reasons ] I won't be at this team, long-term. 
 	Until then I will do my best in [ description of job ]. At the same time, I'd like to
 	learn as much as I can about our company.
 	
-	<p> In order to learn about [ company ] I'd like to explore all the git repositories, and
+	<p>"In order to learn about [ company ] I'd like to explore all the git repositories, and
 	read all the documentation that I can. In the process of doing this, I may offend someone by,
-	for example, [ 3 examples of things that may cause offense ](<a href="#footnote-1">some examples</a>). 
-	Please tell me about other situations that would be frowned upon.
+	for example, [ three examples of things that may cause offense ]
+	(<a href="#footnote-1-src">some examples</a>). 
+	Please tell me about other situations that would be frowned upon."
 	
+	<hr />
 	
-	<p id="footnote-1">At Chewy the example offenses could be, 1) Storing PII on my
-	work laptop, 2) Yelling at our manager Praveen, and 3) Accidentally taking the Dash app down in PROD.
+	<h3>Footnotes</h3>
+	<p id="footnote-1-dest"><a href="#footnote-1-src">some examples</a> At my current employer the 
+	example offenses could be, 1) Storing the personally identifiable information of customers on my
+	work laptop, 2) Yelling at our shared manager, and 3) Accidentally causing the internal app 
+	we work on to go down in PROD.
 </body>
 </html>
